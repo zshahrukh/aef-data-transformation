@@ -1,0 +1,8 @@
+{
+  "repository_name": "sample-repo-1",
+  "branch": "main",
+  "tags": [
+    "process",
+    "transformation"
+  ]
+}
