@@ -1,4 +1,6 @@
 {
+  "dataform_location":"<REGION>",
+  "dataform_project_id":"<PROJECT_ID>",
   "repository_name": "sample-repo-1",
   "branch": "main",
   "tags": [
