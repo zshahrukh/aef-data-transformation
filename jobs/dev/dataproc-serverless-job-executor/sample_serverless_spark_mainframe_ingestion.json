@@ -6,7 +6,7 @@
   "spark_args": ["gs://<PROJECT_ID>_aef_jobs_bucket/dataproc-serverless-job-executor/cobrix/example_cobrix_job.json"],
   "subnetwork": "regions/us-central1/subnetworks/default-us-central1",
   "dataproc_serverless_runtime_version": "1.1.57",
-  "dataproc_service_account": "aef-dataprocdev-sa@analytics-engg-framework-demo.iam.gserviceaccount.com",
+  "dataproc_service_account": "aef-dataprocdev-sa@<PROJECT_ID>.iam.gserviceaccount.com",
   "spark_app_properties": {
     "spark.executor.instances": "2",
     "spark.executor.core": "2"
