@@ -18,6 +18,7 @@ resource "google_storage_bucket" "aef_artifacts_bucket" {
   project                  = var.project
   public_access_prevention = "enforced"
   force_destroy            = false
+  uniform_bucket_level_access = true
 }
 
 resource "google_storage_bucket" "aef_jobs_bucket" {
@@ -26,4 +27,5 @@ resource "google_storage_bucket" "aef_jobs_bucket" {
   project                  = var.project
   public_access_prevention = "enforced"
   force_destroy            = false
+  uniform_bucket_level_access = true
 }
