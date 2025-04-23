@@ -1,12 +1,12 @@
 {
   "dataflow_template_name": "Jdbc_to_BigQuery_Flex",
   "dataflow_template_version": "latest",
-  "dataflow_location": "us-central1",
+  "dataflow_location": "us-central2",
   "project_id": "<PROJECT_ID>",
   "dataflow_max_workers": "10",
   "dataflow_temp_bucket": "<PROJECT_ID>-temp",
   "network": "sample-vpc",
-  "subnetwork": "regions/us-central1/subnetworks/default-us-central1",
+  "subnetwork": "regions/us-central2/subnetworks/default-us-central2",
   "dataflow_job_params": {
     "driverJars": "gs://<PROJECT_ID>_aef_artifacts_bucket/jdbcjars/postgresql-42.7.3.jar",
     "driverClassName": "org.postgresql.Driver",

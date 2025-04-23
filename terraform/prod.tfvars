@@ -1,4 +1,4 @@
 project = "<PROJECT_ID>"
-region  = "us-central1"
+region  = "us-central2"
 domain  = "example"
 environment="dev"
